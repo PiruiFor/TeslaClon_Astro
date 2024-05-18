@@ -1,0 +1,61 @@
+---
+import Layout from '../layouts/Layout.astro';
+import IndexHeader from '../components/IndexHeader.astro';
+import HeroSection from '../Sections/HeroSection.astro';
+import ModelYSection from '../Sections/ModelYSection.astro';
+import Model3 from '../Sections/Model3.astro';
+import ModelX from '../Sections/ModelX.astro';
+import ModelS from '../Sections/ModelS.astro';
+import Cybertruck from '../Sections/Cybertruck.astro';
+import SolarPanel from '../Sections/SolarPanel.astro';
+import SolarRoof from '../Sections/SolarRoof.astro';
+import Powerwall from '../Sections/Powerwall.astro';
+import Accesories from '../Sections/Accesories.astro';
+---
+
+<Layout title="Welcome to Tesla">
+	<IndexHeader/>
+
+	<main class="relative w-full h-screen overflow-auto snap-y snap-mandatory scroll-m-1">
+		<div class="snap-center">
+			<HeroSection/>
+		</div>
+
+		<div class="snap-center">
+			<ModelYSection/>
+		</div>
+
+		<div class="snap-center">
+			<Model3/>
+		</div>
+
+		<div class="snap-center">
+			<ModelX/>
+		</div>
+
+		<div class="snap-center">
+			<ModelS/>
+		</div>
+
+		<div class="snap-center">
+			<Cybertruck/>
+		</div>
+
+		<div class="snap-center">
+			<SolarPanel/>
+		</div>
+
+		<div class="snap-center">
+			<SolarRoof/>
+		</div>
+
+		<div class="snap-center">
+			<Powerwall/>
+		</div>
+
+		<div class="snap-center">
+			<Accesories/>
+		</div>
+
+	</main>
+</Layout>

@@ -1,0 +1,26 @@
+---
+import Section from "../components/Section.astro"
+---
+<Section 
+    title="Disfrute de Tesla" 
+    subtitle="Programe una prueba con nuestros productos"
+    color="white"				
+>
+    <div class="pb-20" slot="footer">
+        <a 
+        class="text-white border-[3px] border-white text-sm rounded font-medium px-20 py-2 hover:bg-white
+        hover:text-black transition-colors duration-75 bg-white/5 backdrop-blur-sm" 
+        href="#">
+            Compre Ahora
+        </a>
+    </div>
+    
+    <video 
+    slot="background"
+    class="object-center object-cover h-full w-full" 
+    autoplay 
+    muted 
+    loop 
+    src="/video.webm">
+    </video>
+</Section>

@@ -1,0 +1,30 @@
+---
+import Section from "../components/Section.astro";
+---
+<Section 
+    subtitle=`Rediseñado`
+    title="Model 3"
+    subtitle2="Contratalo a tan solo $329/mes"
+    color="black"
+    parrafo="*No incluye impuestos ni tarifas y el precio está sujeto a cambios. Disponible en estados seleccionados. Ver detalles"
+>
+    <img class="object-center object-cover h-full w-full" src="/model3.avif" slot="background">
+    </img>
+
+    <div class="gap-x-4 flex mx-auto" slot="footer">
+    <a 
+    class="bg-white text-gray-600 text-sm rounded font-semibold px-16 py-2 hover:bg-gray-700
+    hover:text-white" 
+    href="#">
+        Pedido Personalizado
+    </a>
+
+    <a 
+    class="text-white text-sm rounded font-semibold px-16 py-2
+    bg-gray-600 hover:text-black hover:bg-white items-center justify-center inline-flex" 
+    href="#">
+        Demostración
+    </a>
+
+    </div>
+</Section>

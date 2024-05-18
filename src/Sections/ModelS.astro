@@ -1,0 +1,31 @@
+---
+import Section from "../components/Section.astro";
+---
+
+<Section 
+    title="Model S"
+    subtitle=`Desde $71,090*`
+    subtitle2="Después del estimado en ahorro de gasolina."
+    color="black"
+    parrafo="*El precio antes de ahorros es de $74,990, sin incluir impuestos ni cargos. Sujeto a cambios."
+>
+    <img class="object-center object-cover h-full w-full" src="/modelS.avif" slot="background">
+    </img>
+
+    <div class="gap-x-4 flex mx-auto" slot="footer">
+    <a 
+    class="bg-white text-gray-600 text-sm rounded font-semibold px-16 py-2 hover:bg-gray-700
+    hover:text-white" 
+    href="#">
+        Pedido Personalizado
+    </a>
+
+    <a 
+    class="text-white text-sm rounded font-semibold px-16 py-2
+    bg-gray-600 hover:text-black hover:bg-white items-center justify-center inline-flex" 
+    href="#">
+        Demostración
+    </a>
+
+    </div>
+</Section>

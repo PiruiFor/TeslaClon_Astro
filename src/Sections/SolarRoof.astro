@@ -1,0 +1,29 @@
+---
+import Section from "../components/Section.astro";
+---
+
+<Section 
+    title="Solar Roof"
+    subtitle=`Produzca energía limpia desde su techo`
+    color="black"
+>
+    <img class="object-center object-cover h-full w-full" src="/solarroof.avif" slot="background">
+    </img>
+
+    <div class="gap-x-4 flex mx-auto" slot="footer">
+    <a 
+    class="bg-white text-gray-600 text-sm rounded font-semibold px-20 py-2 hover:bg-gray-700
+    hover:text-white" 
+    href="#">
+        Pídelo Ya
+    </a>
+
+    <a 
+    class="text-white text-sm rounded font-semibold px-12 py-2 hover:text-black hover:bg-white items-center justify-center inline-flex
+    bg-black/60 backdrop-blur-sm" 
+    href="#">
+        Leer Más
+    </a>
+
+    </div>
+</Section>
